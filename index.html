@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Business Loan Readiness Course | Ceetify Business Academy</title>
+  <meta name="theme-color" content="#8b0000" />
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){
+    if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)
+  }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '790569900574873');
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=790569900574873&ev=PageView&noscript=1"/>
+  </noscript>
+
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:Inter,Arial,sans-serif;
+      background:#faf7f4;
+      color:#1e1e1e;
+      line-height:1.6;
+    }
+    a{text-decoration:none}
+    .wrap{max-width:1180px;margin:auto;padding:18px}
+    header{
+      display:flex;justify-content:space-between;align-items:center;
+      padding:12px 0;
+    }
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900}
+    .logo{
+      width:44px;height:44px;border-radius:14px;
+      background:linear-gradient(135deg,#7d0000,#c40000);
+      color:#fff;display:grid;place-items:center;font-size:24px;
+      box-shadow:0 10px 28px rgba(120,0,0,.18);
+    }
+    .brand span{color:#8b0000}
+    .mini-btn{
+      padding:10px 16px;border-radius:999px;background:#111;color:#fff;
+      font-weight:800;font-size:13px;
+    }
+    .hero{
+      display:grid;gap:28px;align-items:center;
+      background:#fff;
+      border:1px solid #ead8d3;
+      border-radius:34px;
+      padding:24px;
+      box-shadow:0 24px 70px rgba(71,25,16,.08);
+      overflow:hidden;
+    }
+    .tag{
+      display:inline-flex;
+      padding:8px 13px;
+      background:#fff0ed;color:#8b0000;
+      border:1px solid #ffd7cf;
+      border-radius:999px;
+      font-size:12px;font-weight:900;
+      margin-bottom:14px;
+    }
+    h1{
+      font-size:38px;line-height:1.05;letter-spacing:-1.2px;
+      margin-bottom:14px;color:#151515;
+    }
+    h1 span{color:#a00000}
+    .lead{font-size:17px;color:#555;margin-bottom:18px;max-width:640px}
+    .price{
+      display:inline-flex;
+      background:#111;color:#fff;border-radius:16px;
+      padding:10px 15px;font-weight:900;margin-bottom:16px;
+    }
+    .actions{display:flex;flex-wrap:wrap;gap:12px}
+    .primary{
+      background:linear-gradient(135deg,#a00000,#e11d1d);
+      color:#fff;
+      padding:16px 22px;
+      border-radius:16px;
+      font-weight:900;
+      box-shadow:0 16px 32px rgba(160,0,0,.22);
+      display:inline-flex;justify-content:center;align-items:center;
+      min-width:230px;
+    }
+    .secondary{
+      background:#fff;
+      color:#111;
+      border:1px solid #ddd0ca;
+      padding:16px 20px;
+      border-radius:16px;
+      font-weight:900;
+      display:inline-flex;justify-content:center;align-items:center;
+      min-width:200px;
+    }
+    .hero-img{
+      min-height:430px;border-radius:28px;position:relative;overflow:hidden;
+      background:
+      linear-gradient(rgba(0,0,0,.05),rgba(0,0,0,.45)),
+      url("https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1000&q=80");
+      background-size:cover;background-position:center;
+    }
+    .image-card{
+      position:absolute;left:16px;right:16px;bottom:16px;
+      background:rgba(255,255,255,.95);
+      padding:16px;border-radius:22px;
+      box-shadow:0 16px 40px rgba(0,0,0,.22);
+    }
+    .image-card b{color:#8b0000}
+    .trust{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px;
+    }
+    .trust div{
+      background:#faf0ec;border-radius:14px;padding:10px;text-align:center;font-size:12px;
+    }
+    .trust strong{display:block;color:#8b0000;font-size:18px}
+    .section{
+      margin-top:18px;background:#fff;border:1px solid #ead8d3;
+      border-radius:28px;padding:24px 18px;
+      box-shadow:0 18px 50px rgba(71,25,16,.06);
+    }
+    h2{font-size:27px;color:#8b0000;margin-bottom:10px;letter-spacing:-.5px}
+    .sub{color:#626262;margin-bottom:18px}
+    .grid{
+      display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;
+    }
+    .card{
+      background:#fffaf8;border:1px solid #eedbd5;border-radius:22px;padding:18px;
+    }
+    .card b{display:block;color:#111;margin-bottom:5px}
+    .icon{
+      width:42px;height:42px;border-radius:14px;
+      background:#8b0000;color:#fff;display:grid;place-items:center;
+      font-weight:900;margin-bottom:12px;
+    }
+    .split{display:grid;gap:20px;align-items:center}
+    .photo{
+      min-height:310px;border-radius:24px;background-size:cover;background-position:center;
+    }
+    .photo.one{background-image:url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1000&q=80")}
+    .photo.two{background-image:url("https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&w=1000&q=80")}
+    ul{padding-left:20px}
+    li{margin:9px 0}
+    .modules .card{background:#fff;border-left:5px solid #8b0000}
+    .dark{
+      background:linear-gradient(135deg,#151515,#5a0000);
+      color:#fff;border:none;
+    }
+    .dark h2{color:#fff}
+    .dark .sub{color:#ffe7e1}
+    .dark .card{
+      background:rgba(255,255,255,.09);
+      border:1px solid rgba(255,255,255,.15);
+      color:#fff;
+    }
+    .final{
+      text-align:center;
+      background:linear-gradient(135deg,#fff,#fff2ed);
+    }
+    .notice{
+      background:#111;color:#fff;border:none;font-size:14px;
+    }
+    .notice h2{color:#fff}
+    .sticky{
+      position:sticky;bottom:10px;z-index:50;
+      display:flex;justify-content:center;margin-top:18px;
+    }
+    .sticky a{
+      width:100%;max-width:520px;border:3px solid #fff;
+    }
+    footer{text-align:center;color:#777;font-size:13px;padding:24px 10px}
+    @media(min-width:850px){
+      .hero{grid-template-columns:1.05fr .95fr;padding:42px}
+      h1{font-size:58px}
+      .lead{font-size:19px}
+      .section{padding:34px}
+      .split{grid-template-columns:1fr 1fr}
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+
+    <header>
+      <div class="brand">
+        <div class="logo">C</div>
+        <div><span>Ceetify</span><br><small>Business Academy</small></div>
+      </div>
+
+      <a class="mini-btn"
+         href="https://selar.com/3j4h8w171l"
+         onclick="fbq('track','InitiateCheckout');">
+        Buy Course
+      </a>
+    </header>
+
+    <section class="hero">
+      <div>
+        <span class="tag">Professional Business Loan Readiness Course</span>
+
+        <h1>GET BIG BANK LOAN <span>Bigger Loans</span> Without Collateral</h1>
+
+        <p class="lead">
+          A practical course for small business owners who want to build trust,
+          organize records, improve bank statements, prepare loan documents,
+          and apply professionally.
+        </p>
+
+        <div class="price">Full Course Access: ₦1,000 discount</div>
+
+        <div class="actions">
+          <a class="primary"
+             href="https://selar.com/3j4h8w171l"
+             onclick="fbq('track','InitiateCheckout');">
+            Buy Now & Get Instant Access
+          </a>
+
+          <a class="secondary"
+             href="https://selar.com/3j4h8w171l"
+             onclick="fbq('track','Contact');">
+            TAKE LOAN NOW
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <div class="image-card">
+          <b>Inside this course:</b>
+          <p>8 modules, practical templates, loan-readiness checklist, and clear steps to prepare before applying.</p>
+
+          <div class="trust">
+            <div><strong>8</strong>Modules</div>
+            <div><strong>4</strong>Templates</div>
+            <div><strong>₦5k</strong>Access</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <h2>Why Many Small Businesses Are Rejected</h2>
+        <p class="sub">
+          Many applicants do not fail because their business is bad. They fail because the lender cannot clearly see proof, structure, and repayment ability.
+        </p>
+
+        <ul>
+          <li>No proper sales records</li>
+          <li>Weak or confusing bank statement</li>
+          <li>No clear business profile</li>
+          <li>No professional loan request letter</li>
+          <li>No realistic repayment plan</li>
+        </ul>
+      </div>
+
+      <div class="photo one"></div>
+    </section>
+
+    <section class="section">
+      <h2>Who Should Take This Course?</h2>
+      <p class="sub">Designed for serious small business owners who want to look more credible before applying for funding.</p>
+
+      <div class="grid">
+        <div class="card"><div class="icon">1</div><b>Traders & Shop Owners</b>For market sellers, retailers, and mini importers.</div>
+        <div class="card"><div class="icon">2</div><b>POS Agents</b>For businesses with regular daily cash flow.</div>
+        <div class="card"><div class="icon">3</div><b>Service Providers</b>Printing, logistics, salons, repairs, tech, and local businesses.</div>
+        <div class="card"><div class="icon">4</div><b>Online Vendors</b>WhatsApp, Instagram, Facebook, and TikTok sellers.</div>
+      </div>
+    </section>
+
+    <section class="section modules">
+      <h2>What You Will Learn</h2>
+      <p class="sub">A complete step-by-step course from business structure to application strategy.</p>
+
+      <div class="grid">
+        <div class="card"><b>Module 1</b>Understand how banks and lenders think.</div>
+        <div class="card"><b>Module 2</b>Make your business bank-ready.</div>
+        <div class="card"><b>Module 3</b>Build a stronger bank statement.</div>
+        <div class="card"><b>Module 4</b>Prepare your loan documents.</div>
+        <div class="card"><b>Module 5</b>Explore no-collateral funding options.</div>
+        <div class="card"><b>Module 6</b>Choose the right loan amount.</div>
+        <div class="card"><b>Module 7</b>Apply strategically and follow up.</div>
+        <div class="card"><b>Module 8</b>Avoid mistakes that cause rejection.</div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div class="photo two"></div>
+
+      <div>
+        <h2>Bonuses Included</h2>
+        <p class="sub">You also get editable tools to help you take action immediately.</p>
+
+        <ul>
+          <li>Loan request letter template</li>
+          <li>Business profile template</li>
+          <li>Simple cash-flow sheet</li>
+          <li>Bank-ready checklist</li>
+        </ul>
+
+        <br>
+
+        <a class="primary"
+           href="https://selar.com/3j4h8w171l"
+           onclick="fbq('track','InitiateCheckout');">
+          Get the Course Now
+        </a>
+      </div>
+    </section>
+
+    <section class="section dark">
+      <h2>What This Course Helps You Do</h2>
+      <p class="sub">It helps you prepare like a serious business owner before meeting lenders.</p>
+
+      <div class="grid">
+        <div class="card"><b>Look More Credible</b>Present your business clearly and professionally.</div>
+        <div class="card"><b>Improve Readiness</b>Understand what to fix before applying.</div>
+        <div class="card"><b>Plan Repayment</b>Choose an amount your business can support.</div>
+        <div class="card"><b>Avoid Costly Mistakes</b>Know what causes silent rejection.</div>
+      </div>
+    </section>
+
+    <section class="section final">
+      <h2>Start Preparing Your Business Today</h2>
+      <p class="sub">
+        Get instant access to the full course and templates through Selar.
+      </p>
+
+      <div class="price">Only ₦1,000</div>
+      <br><br>
+
+      <div class="actions" style="justify-content:center;">
+        <a class="primary"
+           href="https://selar.com/3j4h8w171l"
+           onclick="fbq('track','Purchase'); fbq('track','InitiateCheckout');">
+          Buy Now on Selar
+        </a>
+
+        <a class="secondary"
+           href="https://wa.me/2348064934480?text=Hello%2C%20I%20need%20help%20buying%20the%20Business%20Loan%20Course"
+           onclick="fbq('track','Contact');">
+          Need Help?
+        </a>
+      </div>
+    </section>
+
+    <section class="section notice">
+      <h2>Important Notice</h2>
+      <p>
+        This course does not guarantee loan approval. It teaches legal, practical,
+        and professional preparation steps that can help small business owners
+        present themselves better before applying for loans.
+      </p>
+    </section>
+
+    <div class="sticky">
+      <a class="primary"
+         href="https://selar.com/3j4h8w171l"
+         onclick="fbq('track','InitiateCheckout');">
+        Buy Course Now — ₦1,000
+      </a>
+    </div>
+
+    <footer>
+      © 2026 Ceetify Business Academy. Powered by Ceetify / Ceetice Technologies.
+    </footer>
+
+  </main>
+</body>
+</html>5
